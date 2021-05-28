@@ -1,0 +1,29 @@
+.container {
+    border: 1px solid grey;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    margin:20px;
+
+}
+
+.rules {
+    border: 1px solid grey;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.column2 {
+    flex-grow: 1;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.howtoplay {
+    border: 1px solid grey;
+    padding: 20px;
+    
+}
+
+
