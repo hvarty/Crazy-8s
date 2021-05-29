@@ -1,0 +1,16 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    height: 150px;
+    width: 80px;
+    margin: 10px;
+   cursor: pointer;
+}
+
+.card img {
+   
+    width: 80px;
+}
