@@ -2,10 +2,13 @@ import './intro.css';
 const intro = ({setisIntro}) => {
     return (
         <div className="container">
+            <div className='title'>
+                <h2>Welcome to Crazy 8s!</h2>
+            </div>
             <div className="rules">
                 <h2>Rules:</h2>
                 <ul>
-                    <li>rule 1</li>
+                    <li></li>
                     <li>rule 1</li>
                     <li>rule 1</li>
                     <li>rule 1</li>

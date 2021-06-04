@@ -3,7 +3,7 @@
         //if they do, they win
 
 //TURN- when the user clicks a card, turn checks if it can be played by comparing it to the top card's value
-        //if the card cannot be played, text pop-up saying, you cannot play that card, appears, this
+        //if the card cannot be played, text pop-up saying 'you cannot play that card', appears, this
         //will disappear if another card is played that works, or stay if another wrong card is played
         //each turn ends when either correctcard played is true or the draw pile is clicked
         //if the draw pile is clicked, the pop method is used from the cards in the draw pile array and it is

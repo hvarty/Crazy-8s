@@ -4,13 +4,21 @@
 }
 
 .card {
-    height: 150px;
+    height: 112px;
     width: 80px;
     margin: 10px;
    cursor: pointer;
+}
+.computer {
+    cursor: default;
 }
 
 .card img {
    
     width: 80px;
+}
+
+.selected {
+
+      border:5px solid rgb(179, 255, 0);
 }
