@@ -2,11 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+The first first thing you need to do is run the command below:
+`git clone https://github.com/hvarty/Simple-8s.git`
+this will pull the source code down from github.
+
 ## Available Scripts
 
 In the project directory, you can run: 
 ### `npm install`
-that will instal the project dependencies
+that will install the project dependencies.
 
 ### `npm start`
 
