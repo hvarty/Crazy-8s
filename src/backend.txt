@@ -12,59 +12,29 @@
         //turn only ends when play cards button is clicked, allowing for mutliple cards to be checked
         //in one turn
 
-        //if computer's turn is true, the program selects a random card from the computer hand array 
+        //if computer's turn, the program selects loops through cards from the computer hand array 
         //and loops the check method to check if the card can be played until it reaches the last card 
         //and picks up if needed
 
         //need a check function that compares card to the topcard
-        //need an if statement that checks a turn boolean the determines which player is currently playing
-        //need play card button
+        
+        //need play cards button
 
         //if Check is true after the play card button is clicked, these selected card(s) are moved to 
         //played pile's array
 
-//SPECIAL (within TURN right after CHECK is true)- if a 2 with the matching suit of the top card is played
-        //the oposing player gains the top 2 cards, if multiple 2's are played and check is true, multiply
-        //2 by the number of 2's played and add that amount of cards from the top of the draw pile to the
-        //oposition's hand
-
-        //if an 8 is played (or multiple) the pop-up occurs and gives a choice of suit, this changes the
-        //'top card' variable which is normally taking the value from the card, and making the suit take
-        //the value from the suit input
-
-        //
-
-
-//SHUFFLE - if the draw pile runs out, the played card pile leaves the top card and shuffles the rest
-        //then it puts this array of cards into the draw pile, a 'shuffling cards' pop up occurs
 
 
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- //turn method that checks if the card played is allowed and if there is any special thing that needs to happen
-    //such as 2 is pick up 2 and 8 is change the suit
+ //turn method that checks if the card played is allowed
 
     //create an array for player hand, computer hand, draw pile, and played pile
     //every card has the number value, and suit value, only 52 cards total for the entire duration of the game
 
-    //for the hand layout, use a flex that allows the cards to flow from left to right, and stack if thee is no space left,
-    //card size stays the same 
+    //for the hand layout, use a flex that allows the cards to flow from left to right
 
     //if you cannot play, press the draw pile to pickup using the pop method from the draw pile array
 
-    //computer turn selects a random card from the computer hand array and loops the turn method to check 
-    //if the card can be played until it reaches the last card and picks up if needed
-
-    //in turn method if an 8 is played, a pop-up input appears asking for a choice between 4 suits
-    //if the computer plays an 8, it selects a suit randomly
 
     //turn loop checks if the amount value of the hand/computer hand array is 0, meaning they won the game
 
